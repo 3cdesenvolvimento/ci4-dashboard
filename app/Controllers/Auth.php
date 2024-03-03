@@ -19,7 +19,7 @@ class Auth extends BaseController
 
     public function signup()
     {
-        echo 'Sign Up';
+        return view('auth/signup_frm');
     }
 
     public function signup_submit()
@@ -29,7 +29,7 @@ class Auth extends BaseController
 
     public function forgot_password()
     {
-        echo 'Forgot Password';
+        return view('auth/forgot_password_frm');
     }
 
     public function forgot_password_submit()
