@@ -291,3 +291,7 @@
 a {
     text-decoration: none;
 }
+
+body {
+    background: var(--dark) url("../img/background.jpg") no-repeat fixed center;
+}

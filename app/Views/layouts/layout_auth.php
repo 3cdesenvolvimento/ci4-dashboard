@@ -31,7 +31,7 @@
     <link href="<?= base_url('assets/css/style.css') ?>" rel="stylesheet">
 </head>
 
-<body>
+<body class="bg-dark">
     
     <?= $this->renderSection('content') ?>
 

@@ -18,12 +18,12 @@
                     <div class="bg-secondary rounded p-4 p-sm-5 my-4 mx-3">
                         <div class="d-flex align-items-center justify-content-between mb-3">
                             <a href="<?= site_url('auth/forgot_password') ?>" class="">
-                                <h3 class="text-primary"><i class="fa fa-user-edit me-2"></i><?= APP_NAME ?></h3>
+                                <h3 class="text-primary"><i class="fa fa-unlock me-2"></i><?= APP_NAME ?></h3>
                             </a>
-                            <h3>Recuperar</h3>
+                            <h5 class="text-white">Recuperar sua senha</h5>
                         </div>
 
-                        <p class="text-center">Informe o seu endereço de e-mail para recuperar sua senha.</p>
+                        <p class="text-center text-white">Informe o seu endereço de e-mail para recuperar sua senha.</p>
 
                         <?= form_open('auth/forgot_password_submit') ?>
                         <div class="form-floating mb-3">
@@ -33,8 +33,8 @@
                         <button type="submit" class="btn btn-primary py-3 w-100 mb-4">Recuperar</button>
                         <?= form_close() ?>
 
-                        <p class="text-center mb-2">Não tem uma conta? <a href="<?= site_url('auth/signup') ?>">Cadastre-se</a></p>
-                        <p class="text-center mb-0">Já tem uma conta? <a href="<?= site_url('auth/login') ?>">Login</a></p>
+                        <p class="text-center text-white mb-2">Não tem uma conta? <a href="<?= site_url('auth/signup') ?>">Cadastre-se</a></p>
+                        <p class="text-center text-white mb-0">Já tem uma conta? <a href="<?= site_url('auth/login') ?>">Login</a></p>
                     </div>
                 </div>
             </div>

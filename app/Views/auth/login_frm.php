@@ -18,9 +18,9 @@
                     <div class="bg-secondary rounded p-4 p-sm-5 my-4 mx-3">
                         <div class="d-flex align-items-center justify-content-between mb-3">
                             <a href="<?= site_url('auth/login') ?>" class="">
-                                <h3 class="text-primary"><i class="fa fa-user-edit me-2"></i><?= APP_NAME ?></h3>
+                                <h3 class="text-primary"><i class="fa fa-sign-in-alt me-2"></i><?= APP_NAME ?></h3>
                             </a>
-                            <h3>Login</h3>
+                            <h3 class="text-white">Login</h3>
                         </div>
 
                         <?= form_open('auth/login_submit') ?>
@@ -35,14 +35,14 @@
                         <div class="d-flex align-items-center justify-content-between mb-4">
                             <div class="form-check">
                                 <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                <label class="form-check-label" for="exampleCheck1">Manter-me Conectado</label>
+                                <label class="form-check-label text-white" for="exampleCheck1">Manter-me Conectado</label>
                             </div>
                             <a href="<?= site_url('auth/forgot_password') ?>">Esqueceu sua Senha?</a>
                         </div>
                         <button type="submit" class="btn btn-primary py-3 w-100 mb-4">Login</button>
                         <?= form_close() ?>
 
-                        <p class="text-center mb-0">Não tem uma conta? <a href="<?= site_url('auth/signup') ?>">Cadastre-se</a></p>
+                        <p class="text-center mb-0 text-white">Não tem uma conta? <a href="<?= site_url('auth/signup') ?>">Cadastre-se</a></p>
                     </div>
                 </div>
             </div>

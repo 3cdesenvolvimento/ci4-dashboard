@@ -19,7 +19,7 @@
                         <a href="<?= site_url('auth/signup') ?>" class="">
                             <h3 class="text-primary"><i class="fa fa-user-edit me-2"></i><?= APP_NAME ?></h3>
                         </a>
-                        <h3>Cadastre-se</h3>
+                        <h3 class="text-white">Cadastre-se</h3>
                     </div>
 
                     <?= form_open('auth/signup_submit') ?>
@@ -35,17 +35,13 @@
                         <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
                         <label for="floatingPassword">Senha</label>
                     </div>
-                    <div class="d-flex align-items-center justify-content-between mb-4">
-                        <div class="form-check">
-                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                            <label class="form-check-label" for="exampleCheck1">Manter-me Conectado</label>
-                        </div>
+                    <div class="d-flex align-items-center justify-content-center mb-4">
                         <a href="<?= site_url('auth/forgot_password') ?>">Esqueceu sua Senha?</a>
                     </div>
                     <button type="submit" class="btn btn-primary py-3 w-100 mb-4">Confirmar</button>
                     <?= form_close() ?>
 
-                    <p class="text-center mb-0">Já tem uma conta? <a href="<?= site_url('auth/login') ?>">Login</a></p>
+                    <p class="text-center text-white mb-0">Já tem uma conta? <a href="<?= site_url('auth/login') ?>">Login</a></p>
                 </div>
             </div>
         </div>
