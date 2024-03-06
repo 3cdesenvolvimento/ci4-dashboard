@@ -25,7 +25,7 @@
     <link href="<?= base_url('assets/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css') ?>" rel="stylesheet" />
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="<?= base_url('assets/css/bootstrap.min.css') ?>" rel="stylesheet">
+    <link href="<?= base_url('assets/css/bootstrap.css') ?>" rel="stylesheet">
 
     <!-- Template Stylesheet -->
     <link href="<?= base_url('assets/css/style.css') ?>" rel="stylesheet">

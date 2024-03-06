@@ -94,4 +94,4 @@ define('EVENT_PRIORITY_NORMAL', 100);
 define('EVENT_PRIORITY_HIGH', 10);
 
 // MINHAS CONSTANTES
-define('APP_NAME', 'CI4 - DashBoard');
+define('APP_NAME', 'Meu Negócio');

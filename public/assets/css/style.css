@@ -1,9 +1,9 @@
 /********** Template CSS **********/
 :root {
-    --primary: #EB1616;
-    --secondary: #191C24;
-    --light: #6C7293;
-    --dark: #000000;
+    --primary: #EF8354;
+    --secondary: #4F5D75;
+    --light: #BFC0C0;
+    --dark: #2D3142;
 }
 
 .back-to-top {
@@ -286,4 +286,8 @@
 .testimonial-carousel .owl-dot.active {
     background: var(--dark);
     border-color: var(--primary);
+}
+
+a {
+    text-decoration: none;
 }
