@@ -31,9 +31,31 @@
     <link href="<?= base_url('assets/css/style.css') ?>" rel="stylesheet">
 </head>
 
-<body class="bg-dark fundo">
+<body class="bg-dark">
+
+    <div class="container-fluid position-relative d-flex p-0">
+
+        <!-- Spinner -->
+        <?= $this->include('layouts/partials/spinner.php') ?>
     
-    <?= $this->renderSection('content') ?>
+        <!-- SideBar -->
+        <?= $this->include('layouts/partials/sidebar.php') ?>
+
+        <div class="content">
+
+            <!-- NavBar -->
+            <?= $this->include('layouts/partials/navbar.php') ?>
+
+            <?= $this->renderSection('content') ?>
+
+            <!-- Footer -->
+            <?= $this->include('layouts/partials/footer.php') ?>
+
+        </div>
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    </div>
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>

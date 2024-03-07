@@ -18,3 +18,6 @@ $routes->post('/auth/signup_submit', 'Auth::signup_submit');
 /* Forgot Password */
 $routes->get('/auth/forgot_password', 'Auth::forgot_password');
 $routes->post('/auth/forgot_password_submit', 'Auth::forgot_password_submit');
+
+/* DashBoard */
+$routes->get('/dashboard', 'Dashboard::index');

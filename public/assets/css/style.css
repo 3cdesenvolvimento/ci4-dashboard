@@ -292,6 +292,6 @@ a {
     text-decoration: none;
 }
 
-body {
+.fundo {
     background: var(--dark) url("../img/background.jpg") no-repeat fixed center;
 }
