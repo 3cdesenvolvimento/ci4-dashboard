@@ -1,8 +1,11 @@
 <div class="sidebar pe-4 pb-3">
     <nav class="navbar bg-secondary navbar-dark">
-        <a href="index.html" class="navbar-brand mx-4 mb-3">
-            <h3 class="text-primary"><i class="fa fa-chart-line me-2"></i><?= APP_NAME ?></h3>
-        </a>
+        <div class="d-flex align-items-center mx-2">
+            <img class="" src="<?= base_url('assets/img/logo.png') ?>" alt="" style="width: 40px; height: 40px;">
+            <a href="index.html" class="navbar-brand mx-2 my-2">    
+                <h4 class="text-primary"><?= APP_NAME ?></h4>
+            </a>
+        </div>
         <div class="d-flex align-items-center ms-4 mb-4">
             <div class="position-relative">
                 <img class="rounded-circle" src="<?= base_url('assets/img/user.png') ?>" alt="" style="width: 40px; height: 40px;">
