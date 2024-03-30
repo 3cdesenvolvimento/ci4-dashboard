@@ -21,3 +21,9 @@ $routes->post('/auth/forgot_password_submit', 'Auth::forgot_password_submit');
 
 /* DashBoard */
 $routes->get('/dashboard', 'Dashboard::index');
+
+/* Error 404 */
+$routes->get('/404', 'Page::error_404');
+
+/* Blank Page */
+$routes->get('/blank_page', 'Page::blank_page');
